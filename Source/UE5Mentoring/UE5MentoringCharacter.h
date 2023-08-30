@@ -13,41 +13,6 @@ class AUE5MentoringCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
-		//// 화면에 로그 출력
-		//if (GEngine)
-		//{
-		//	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT("Hello World!"));
-		//}
-		//// Output Log 창에 출력
-		//UE_LOG(LogTemp, Warning, TEXT("Hello World!"));
-	//// 화면에 로그 출력
-	//if (GEngine)
-	//{
-	//	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT("Hello World!"));
-	//}
-	//// Output Log 창에 출력
-	//UE_LOG(LogTemp, Warning, TEXT("Hello World!"));
-	//// 화면에 로그 출력
-	//if (GEngine)
-	//{
-	//	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT("Hello World!"));
-	//}
-	//// Output Log 창에 출력
-	//UE_LOG(LogTemp, Warning, TEXT("Hello World!"));
-	//// 화면에 로그 출력
-	//if (GEngine)
-	//{
-	//	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT("Hello World!"));
-	//}
-	//// Output Log 창에 출력
-	//UE_LOG(LogTemp, Warning, TEXT("Hello World!"));
-	//// 화면에 로그 출력
-	//if (GEngine)
-	//{
-	//	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT("Hello World!"));
-	//}
-	//// Output Log 창에 출력
-	//UE_LOG(LogTemp, Warning, TEXT("Hello World!"));
 	/** Camera boom positioning the camera behind the character */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class USpringArmComponent* CameraBoom;

@@ -17,6 +17,12 @@ class UE5MENTORING_API AMyPlayer : public ABasicCharacter
 public:
 	AMyPlayer();
 
+protected:
+	// APawn interface
+	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	void MoveForward(float value);
+	void MoveRight(float value);
+
 private:
 	/** Camera boom positioning the camera behind the character */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
