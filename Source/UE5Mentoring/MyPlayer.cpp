@@ -24,11 +24,3 @@ AMyPlayer::AMyPlayer()
 void AMyPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 }
-
-void AMyPlayer::MoveForward(float value)
-{
-}
-
-void AMyPlayer::MoveRight(float value)
-{
-}
